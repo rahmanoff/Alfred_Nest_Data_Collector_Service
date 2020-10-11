@@ -1,0 +1,37 @@
+{
+  "name": "alfred_nest_data_collector_service",
+  "version": "1.0.0",
+  "description": "ALFRED - Nest Data Collector Service",
+  "author": "JP",
+  "license": "MIT",
+  "snyk": true,
+  "main": "lib/server/server.js",
+  "scripts": {
+    "start": "node lib/server/server.js",
+    "local": "nodemon lib/server/server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect",
+    "test": "snyk test"
+  },
+  "dependencies": {
+    "alfred-base": "git://github.com/johneppillar/alfred_base_service",
+    "alfred-helper": "git://github.com/johneppillar/alfred_helper",
+    "dotenv": "^8.2.0",
+    "googleapis": "^61.0.0",
+    "moment": "^2.29.1",
+    "snyk": "^1.413.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "prettier": "^2.1.2"
+  }
+}
