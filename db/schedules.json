@@ -1,0 +1,20 @@
+[
+  {
+    "schedule": 1,
+    "hour": 7,
+    "minute": 30,
+    "name": "Morning Heating off",
+    "ecoMode": true,
+    "active": true,
+    "override": false
+  },
+  {
+    "schedule": 2,
+    "hour": 17,
+    "minute": 30,
+    "name": "Evening Heating on",
+    "ecoMode": false,
+    "active": true,
+    "override": false
+  }
+]

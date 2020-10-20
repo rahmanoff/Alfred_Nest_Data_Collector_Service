@@ -1,0 +1,35 @@
+{
+  "title": "update schedule",
+  "description": "describes properties required to update nest thermostat schedule",
+  "type": "object",
+  "properties": {
+    "schedule": {
+      "type": "string",
+      "description": "Schedule"
+    },
+    "name": {
+      "type": "string",
+      "description": "Device name"
+    },
+    "hour": {
+      "type": "number",
+      "description": "Hour"
+    },
+    "minute": {
+      "type": "number",
+      "description": "Minute"
+    },
+    "override": {
+      "type": "boolean",
+      "description": "Schedule override"
+    },
+    "ecoMode": {
+      "type": "boolean",
+      "description": "Device ecoMode"
+    },
+    "active": {
+      "type": "boolean",
+      "description": "Device active"
+    }
+  }
+}
