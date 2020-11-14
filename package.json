@@ -19,7 +19,7 @@
     "dotenv": "^8.2.0",
     "googleapis": "^64.0.0",
     "moment": "^2.29.1",
-    "snyk": "^1.424.4"
+    "snyk": "^1.426.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
