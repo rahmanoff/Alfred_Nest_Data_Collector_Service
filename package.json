@@ -15,11 +15,11 @@
     "dotenv": "^8.2.0",
     "googleapis": "^66.0.0",
     "moment": "^2.29.1",
+    "debug": "4.3.1",
     "snyk": "^1.437.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "debug": "4.3.1",
     "eslint": "^7.16.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
