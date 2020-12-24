@@ -12,11 +12,11 @@
   "dependencies": {
     "alfred-base": "git://github.com/johneppillar/alfred_base_service",
     "alfred-helper": "git://github.com/johneppillar/alfred_helper",
+    "debug": "4.3.1",
     "dotenv": "^8.2.0",
     "googleapis": "^66.0.0",
     "moment": "^2.29.1",
-    "debug": "4.3.1",
-    "snyk": "^1.437.2"
+    "snyk": "^1.437.3"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
