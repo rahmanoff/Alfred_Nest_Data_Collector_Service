@@ -26,6 +26,7 @@ fi
 echo "Set env vars"
 export ENVIRONMENT="development"
 export ALFRED_WEATHER_SERVICE="https://johnpillar.me:3981/weather"
+export ALFRED_NETATMO_SERVICE="https://johnpillar.me:3981/netatmo"
 
 echo "Get app vault token"
 TMP_VAULT_TOKEN=$VAULT_TOKEN
