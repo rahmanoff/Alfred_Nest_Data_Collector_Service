@@ -17,7 +17,7 @@ else
     rm package-lock.json
 
     echo "Check for module updates"
-    ncu -u
+    ncu -u --filterVersion "/^[~^<>]| - |\.x$/"
 
     echo "Install updates"
     npm install
