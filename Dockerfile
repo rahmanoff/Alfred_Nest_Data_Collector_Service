@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:17-alpine
 
 ## Create app folder
 RUN mkdir -p /home/nodejs/app
