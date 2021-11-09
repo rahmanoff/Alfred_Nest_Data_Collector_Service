@@ -13,14 +13,14 @@
   "dependencies": {
     "alfred-base": "git://github.com/johneppillar/alfred_base_service",
     "debug": "4.3.2",
-    "googleapis": "^89.0.0",
+    "googleapis": "^91.0.0",
     "moment": "^2.29.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
