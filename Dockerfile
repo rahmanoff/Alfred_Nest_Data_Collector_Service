@@ -11,13 +11,7 @@ COPY . .
 RUN npm install
 
 ## Set up host
-ENV TZ=Europe/London
-
-RUN apk add --no-cache --virtual \
-	tzdata \
-	curl \
-	&& echo $TZ > /etc/timezone \
-	&& rm -rf /var/cache/apk/*
+RUN apk --no-cache add curl
 
 ## Set permissions
 COPY --chown=node:node . .
