@@ -42,7 +42,7 @@ jobs:
           SLACK_USERNAME: 'Github CI'
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_ICON: https://avatars2.githubusercontent.com/u/25100863?s=40&v=4
-          SLACK_TITLE: Build status
+          SLACK_TITLE: 'Build status - alfred_nest_data_collector_service'
           SLACK_MESSAGE: 'Build failed  :bangbang:'
           SLACK_COLOR: '#ff0000'
 
@@ -54,5 +54,5 @@ jobs:
           SLACK_USERNAME: 'Github CI'
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_ICON: https://avatars2.githubusercontent.com/u/25100863?s=40&v=4
-          SLACK_TITLE: Build status
+          SLACK_TITLE: 'Build status - alfred_nest_data_collector_service'
           SLACK_MESSAGE: 'Build passed  :rocket:'
