@@ -1,6 +1,6 @@
 {
   "name": "alfred_nest_data_collector_service",
-  "version": "1.2.24",
+  "version": "1.2.25",
   "description": "ALFRED - Nest Data Collector Service",
   "author": "JP",
   "main": "lib/server/server.js",
